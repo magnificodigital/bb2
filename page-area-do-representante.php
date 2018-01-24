@@ -45,9 +45,7 @@
 					<div class="<?php echo $class; ?>">
 						<div class="lookbook-wrapper">
 							<div class="lookbook-item">
-								<a href="<?php bloginfo('url') ?>/lookbook/?filter=1">
-									<div class="lookbook-item-thumbnail" style="background-image: url('<?php echo $img1; ?>');"></div>
-								</a>
+								<div class="lookbook-item-thumbnail" style="background-image: url('<?php echo $img1; ?>');"></div>
 								<div class="lookbook-item-title"><?php echo $titulo1; ?></div>
 								<?php
 									if (isset($pdf1) && !empty($pdf1)) : ?>
@@ -63,9 +61,7 @@
 					<div class="<?php echo $class; ?>">
 						<div class="lookbook-wrapper">
 							<div class="lookbook-item">
-								<a href="<?php bloginfo('url') ?>/lookbook/?filter=2">
-									<div class="lookbook-item-thumbnail" style="background-image: url('<?php echo $img2; ?>');"></div>
-								</a>
+								<div class="lookbook-item-thumbnail" style="background-image: url('<?php echo $img2; ?>');"></div>
 								<div class="lookbook-item-title"><?php echo $titulo2; ?></div>
 								<?php
 									if (isset($pdf2) && !empty($pdf2)) : ?>
@@ -81,9 +77,7 @@
 					<div class="<?php echo $class; ?>">
 						<div class="lookbook-wrapper">
 							<div class="lookbook-item">
-								<a href="<?php bloginfo('url') ?>/lookbook/?filter=3">
-									<div class="lookbook-item-thumbnail" style="background-image: url('<?php echo $img3; ?>');"></div>
-								</a>
+								<div class="lookbook-item-thumbnail" style="background-image: url('<?php echo $img3; ?>');"></div>
 								<div class="lookbook-item-title"><?php echo $titulo3; ?></div>
 								<?php
 									if (isset($pdf3) && !empty($pdf3)) : ?>

@@ -39,15 +39,12 @@
 <style type="text/css">
 	
 	/*
-
 		Estilos definidos pelo usuário
 
 		Cores padrão
 		Cor1: #f8af42
 		Cor2: #816636
 		Cor3: #c2d66f
-
-
 	*/
 
 	<?php $home = get_page_by_path( 'home' ); ?>
